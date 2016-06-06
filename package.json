@@ -9,7 +9,7 @@
   "author": "VoltiSubito",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf ./dist && mkdir ./dist && cp ./app/index.html ./dist/index.html && node node_modules/.bin/webpack ./app/entry.js ./dist/bundle.js"
+    "build": "rm -rf ./dist && mkdir ./dist && cp ./app/index.html ./dist/index.html && node node_modules/.bin/webpack"
   },
   "devDependencies": {
     "webpack": "^1.13.1"
