@@ -1,0 +1,15 @@
+{
+  "name": "webpack-experimentation",
+  "version": "0.0.1",
+  "description": "Playing with webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoltiSubito/webpack-experimentation.git"
+  },
+  "author": "VoltiSubito",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VoltiSubito/webpack-experimentation/issues"
+  },
+  "homepage": "https://github.com/VoltiSubito/webpack-experimentation#readme"
+}
