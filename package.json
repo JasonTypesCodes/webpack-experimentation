@@ -8,8 +8,10 @@
   },
   "author": "VoltiSubito",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/VoltiSubito/webpack-experimentation/issues"
+  "scripts": {
+    "build": "node node_modules/.bin/webpack ./app/entry.js ./app/bundle.js"
   },
-  "homepage": "https://github.com/VoltiSubito/webpack-experimentation#readme"
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
 }
