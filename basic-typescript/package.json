@@ -1,0 +1,18 @@
+{
+  "name": "typescript-webpack-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rm -rf ./dist && mkdir ./dist && cp ./app/index.html ./dist/index.html && node node_modules/.bin/webpack",
+    "serve": "node node_modules/.bin/webpack-dev-server --content-base app --inline --port 4100"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "tslint": "^3.15.1",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  }
+}
