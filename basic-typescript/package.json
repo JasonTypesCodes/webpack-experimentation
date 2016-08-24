@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "rm -rf ./dist && mkdir ./dist && cp ./app/index.html ./dist/index.html && node node_modules/.bin/webpack",
-    "serve": "node node_modules/.bin/webpack-dev-server --content-base app --inline --port 4100"
+    "serve": "webpack-dev-server --content-base app --inline --port 4100"
   },
   "author": "",
   "license": "ISC",
