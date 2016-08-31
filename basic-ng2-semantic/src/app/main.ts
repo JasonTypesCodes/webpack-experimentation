@@ -1,5 +1,3 @@
-import '../../semantic/src/semantic.less';
-
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app.module';
