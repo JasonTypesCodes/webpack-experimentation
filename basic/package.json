@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "shx": "0.2.2",
-    "webpack": "1.14.0",
-    "webpack-dev-server": "1.16.2"
+    "webpack": "2.2.0-rc.5",
+    "webpack-dev-server": "2.2.0-rc.0"
   }
 }
