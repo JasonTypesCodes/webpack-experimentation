@@ -9,10 +9,11 @@
   "author": "VoltiSubito",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf ./dist && mkdir ./dist && cp ./app/index.html ./dist/index.html && node node_modules/.bin/webpack",
+    "build": "shx rm -rf ./dist && shx mkdir ./dist && shx cp ./app/index.html ./dist/index.html && webpack",
     "serve": "webpack-dev-server --content-base app --inline --port 4100"
   },
   "devDependencies": {
+    "shx": "0.2.2",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.15.0"
   }
